@@ -14,5 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: make
-      run: make HelloWorld
+      run: make HelloWorld 
+    - name: execute
+      run: echo ./HelloWorld
+
+      
     
