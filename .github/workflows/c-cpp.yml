@@ -16,7 +16,7 @@ jobs:
     - name: make
       run: make HelloWorld 
     - name: execute
-      run: echo ./HelloWorld
+      run: ./HelloWorld
 
       
     
